@@ -7,7 +7,7 @@ In `1_preprocessing.py` (line 100-101) and `3_data_processing` (line 71-72) chan
 
 `1_preprocessing.py`: 
 ```bash
- # Assuming 'amt_revenue' is the target variable, update to the target column 
+# Assuming 'amt_revenue' is the target variable, update to the target column 
 correlation_matrix(normalized_df, df, 'normalized_corrMat.png', 'amt_revenue')
 ```
 
