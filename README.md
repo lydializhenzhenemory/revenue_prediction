@@ -1,4 +1,4 @@
-# revenue_prediction
+# Revenue Prediction Project
 
 ## Instruction 
 Original dataset in 'training_data_all_oem_code_sample.cvs'. 
