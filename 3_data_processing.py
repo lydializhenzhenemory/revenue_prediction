@@ -80,8 +80,8 @@ data = pd.read_csv(file_path)
 # selected_features = select_relevant_features(data)
 # data = select_relevant_features(data)
 
-# Specify the name of your target column
-target_column = 'qty_revenue'
+# Specify the name of your target column, change to the target colum
+target_column = 'amt_revenue'
 
 # Splitting the data
 X_train, X_test, y_train, y_test = split_data(data, target_column)
