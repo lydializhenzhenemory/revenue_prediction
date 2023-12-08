@@ -4,3 +4,7 @@
 # Current code is putting 'amt_revenue' as target column
 
 # Run file 1, 2, and 3 in order to process the data
+
+# 'lr.py' for linear regression model 
+# 'neural_network.py' for neural network model 
+# 'rf.py' for random forest model 
