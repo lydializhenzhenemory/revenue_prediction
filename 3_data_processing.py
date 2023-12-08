@@ -39,18 +39,6 @@ def split_data(df, target_column):
 
 def select_relevant_features(df):
     # Define the features that are likely to have an impact on revenue
-
-    # relevant_features = ['row_id', 'period_input', 'period_fcst', 'product_no_family', 
-    #                       'model_no_family', 'customer_project_family', 'qty_fcst', 
-    #                       'amt_revenue', 'qty_revenue', 'amt_cost_group', 'amt_fcst_max', 
-    #                       'qty_fcst_max', 'amt_backlog', 'qty_backlog', 'qty_FGI_inventory', 
-    #                       'amt_FGI_inventory', 'amt_budget', 'dt_mp', 'stat_endoflife', 
-    #                       'main_parts_1', 'qty_onhand_main_parts_1', 'leadtime_main_parts_1', 
-    #                       'main_parts_2', 'qty_onhand_main_parts_2', 'leadtime_main_parts_2', 
-    #                       'main_parts_3', 'qty_onhand_main_parts_3', 'leadtime_main_parts_3',
-    #                       'main_parts_4', 'qty_onhand_main_parts_4', 'leadtime_main_parts_4', 
-    #                       'main_parts_5', 'qty_onhand_main_parts_5', 'leadtime_main_parts_5',]
-
     relevant_features = ['row_id', 'dt_input', 'period_input', 'dt_fcst', 'period_fcst', 'product_no', 
                          'product_no_family', 'model_no', 'model_no_family', 'customer_project', 
                          'customer_project_family', 'oem_code', 'qty_fcst', 'amount_fcst', 'amt_revenue', 

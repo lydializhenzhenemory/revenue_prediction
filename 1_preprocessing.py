@@ -78,9 +78,6 @@ def normalize_data(df):
         df[feature] = np.where(df[feature] < lower_bound, lower_bound, df[feature])
         df[feature] = np.where(df[feature] > upper_bound, upper_bound, df[feature])
 
-    # Other pre-processing steps from the previous version of the function if necessary
-    # ...
-
     # Ensure only numerical data is returned
     df = df.select_dtypes(include=[np.number])
     
