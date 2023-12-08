@@ -17,7 +17,6 @@ correlation_matrix(normalized_df, df, 'normalized_corrMat.png', 'amt_revenue')
 target_column = 'amt_revenue'
 ```
 
-
 Run file 1, 2, and 3 in order to process the original dataset. 
 
 ## Files
