@@ -97,7 +97,7 @@ def main():
     # Save the processed (normalized) data to a CSV file
     normalized_df.to_csv('normalized_data.csv', index=False)
 
-    # Assuming 'amt_revenue' is your target variable
+    # Assuming 'amt_revenue' is the target variable
     correlation_matrix(normalized_df, df, 'normalized_corrMat.png', 'amt_revenue')
 
 if __name__ == "__main__":

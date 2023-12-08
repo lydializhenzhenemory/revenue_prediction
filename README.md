@@ -7,13 +7,13 @@ In `1_preprocessing.py` (line 100-101) and `3_data_processing` (line 71-72) chan
 
 `1_preprocessing.py`: 
 ```bash
-# Assuming 'amt_revenue' is your target variable
+# Assuming 'amt_revenue' is the target variable
 correlation_matrix(normalized_df, df, 'normalized_corrMat.png', 'amt_revenue')
 ```
 
 `3_data_processing`
 ```bash
-# Specify the name of your target column, change to the target colum
+# Specify the name of the target column, change to the target colum
 target_column = 'amt_revenue'
 ```
 
