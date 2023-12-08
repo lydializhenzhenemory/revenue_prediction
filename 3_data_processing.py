@@ -3,12 +3,6 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
 def clean_and_process_data(df):
-
-    # # Data Type Conversion with specific date format if known
-    # date_cols = ['period_input', 'period_fcst']
-    # for col in date_cols:
-    #     df[col] = pd.to_datetime(df[col], format='your_date_format_here', errors='coerce')
-
     # Removing Duplicates
     df.drop_duplicates(inplace=True)
 
