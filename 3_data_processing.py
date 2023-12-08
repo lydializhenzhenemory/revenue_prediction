@@ -14,11 +14,6 @@ def clean_and_process_data(df):
     scaler = MinMaxScaler()
     df[numerical_cols] = scaler.fit_transform(df[numerical_cols])
 
-    # # Feature Engineering for date columns
-    # for col in date_cols:
-    #     df[f'{col}_year'] = df[col].dt.year
-    #     df[f'{col}_month'] = df[col].dt.month
-
     return df
 
 def split_data(df, target_column):
