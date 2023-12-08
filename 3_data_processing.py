@@ -57,7 +57,7 @@ data = pd.read_csv(file_path)
 # selected_features = select_relevant_features(data)
 # data = select_relevant_features(data)
 
-# Specify the name of the target column, change to the target colum
+# Specify the name of the target column, update to the target column
 target_column = 'amt_revenue'
 
 # Splitting the data
